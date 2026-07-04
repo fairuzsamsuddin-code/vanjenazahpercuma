@@ -32,7 +32,18 @@
             box-sizing: border-box;
             overflow: hidden; 
         }
+        
+        /* Black Header */
+        .card-header {
+            background: #111111; 
+            height: 120px;
+            width: 100%;
+        }
 
+        .card-content {
+            padding: 0 30px 40px 30px;
+        }
+        
         /* Profile Icon styled as a Gold Badge */
         .profile-icon { 
             width: 110px; 
@@ -123,14 +134,22 @@
 <body>
 
     <div class="card">
-
+        
+        <!-- Black Header -->
+        <div class="card-header"></div>
+        
         <!-- Main Content Block -->
         <div class="card-content">
             
+            <div class="profile-icon">
+                <i class="fas fa-van-shuttle"></i>
+            </div>
+            
+            <h1>MGKL Prihatin</h1>
+            <p class="subtitle">Van Jenazah Percuma</p>
+
             <!-- Company Logo Inserted Here -->
             <img src="company_logo.JPG" alt="MGKL Prihatin Logo" class="company-logo" onerror="this.style.display='none'">
-            
-            <p class="subtitle">Van Jenazah Percuma</p>
 
             <p class="bio-text">Khidmat pengurusan van jenazah percuma disediakan khas bagi membantu meringankan beban waris yang memerlukan.</p>
             
